@@ -9,8 +9,11 @@ SERVERNAMELOWER=
 #HOSTNAME Example: loretta.hosting.alqo.org
 HOSTNAME=
 
-#SERVERIP Example: 12.34.56.78
+#SERVERIP (Public/External IP) Example: 12.34.56.78
 SERVERIP=
+
+#PRIVATEIP (Private/Internal IP), might be the same as SERVERIP
+PRIVATEIP=
 
 #SET A INITIAL-CODE HERE
 INITIAL="test"
@@ -83,7 +86,7 @@ maxconnections=256
 staking='"${STAKING}"'
 masternode='"${MASTERNODE}"'
 externalip='"${SERVERIP}"'
-bind='"${SERVERIP}"':55500
+bind='"${PRIVATEIP}"':55500
 masternodeaddr='"${SERVERIP}"'
 masternodeprivkey='"${MASTERNODEPRIVKEY}"'
 
