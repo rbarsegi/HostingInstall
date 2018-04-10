@@ -90,6 +90,28 @@ bind='"${PRIVATEIP}"':55500
 masternodeaddr='"${SERVERIP}"'
 masternodeprivkey='"${MASTERNODEPRIVKEY}"'
 
+#ADDNODE SECTION
+addnode=195.181.241.106
+addnode=104.238.179.180
+addnode=62.77.152.33
+addnode=212.24.106.218
+addnode=45.55.200.40
+addnode=108.61.103.231
+addnode=89.47.167.9
+addnode=89.40.7.219
+addnode=155.94.75.66
+addnode=45.76.56.89
+addnode=62.77.159.60
+addnode=45.76.95.181
+addnode=80.208.231.34
+addnode=45.32.167.92
+addnode=195.181.243.148
+addnode=62.77.159.6
+addnode=62.77.152.125
+addnode=109.235.65.81
+addnode=199.247.18.148
+addnode=82.223.109.218
+
 ' | sudo -E tee /var/ALQO/data/alqo.conf >/dev/null 2>&1	
 
 
