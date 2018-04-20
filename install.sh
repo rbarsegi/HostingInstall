@@ -91,26 +91,26 @@ masternodeaddr='"${SERVERIP}"'
 masternodeprivkey='"${MASTERNODEPRIVKEY}"'
 
 #ADDNODE SECTION
-addnode=195.181.241.106
-addnode=104.238.179.180
-addnode=62.77.152.33
-addnode=212.24.106.218
-addnode=45.55.200.40
-addnode=108.61.103.231
-addnode=89.47.167.9
-addnode=89.40.7.219
-addnode=155.94.75.66
-addnode=45.76.56.89
-addnode=62.77.159.60
-addnode=45.76.95.181
-addnode=80.208.231.34
-addnode=45.32.167.92
-addnode=195.181.243.148
-addnode=62.77.159.6
-addnode=62.77.152.125
-addnode=109.235.65.81
-addnode=199.247.18.148
-addnode=82.223.109.218
+addnode=45.33.71.137
+addnode=194.182.68.76
+addnode=62.77.155.113
+addnode=45.32.137.43
+addnode=62.77.159.140
+addnode=62.77.154.138
+addnode=89.40.3.220
+addnode=89.47.160.91
+addnode=45.32.152.47
+addnode=89.40.8.66
+addnode=139.59.91.86
+addnode=194.135.88.136
+addnode=80.208.225.172
+addnode=80.208.225.51
+addnode=62.77.156.224
+addnode=73.76.16.176
+addnode=194.135.94.188
+addnode=138.201.118.216
+addnode=80.209.230.93
+addnode=94.177.163.5
 
 ' | sudo -E tee /var/ALQO/data/alqo.conf >/dev/null 2>&1	
 
